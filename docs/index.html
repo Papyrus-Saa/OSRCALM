@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../src/css/styles.css">
-  <!-- Cambiar por css/styles.min.css al finalizar el proyecto -->
-  <title>''</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/eac43127e7.js"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;1,700&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Dancing+Script:wght@400;600&family=Economica:wght@700&family=Inter:wght@300&family=Lato:wght@400;900&family=Nunito+Sans:opsz@6..12&family=Quicksand&family=Raleway:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="../src/css/styles.css" />
+    <!-- Cambiar por css/styles.min.css al finalizar el proyecto -->
+    <title>OSR CALM - Servicios auxiliares</title>
+  </head>
+  <body>
+    <div id="dropdownActivate" class="dropdown">
+      <nav class="dropdown__menu">
+        <ul class="dropdown__ul">
+          <li class="dropdown__item">Quienes somos</li>
+          <li class="dropdown__item">Servicios</li>
+          <li class="dropdown__item">Contactos</li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__logo">
+        <img
+          class="header__img"
+          src="assets/images/logocalmnegro.png"
+          alt="logo" />
+      </div>
+      <div id="closeMenu" class="closeMenu">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div id="menu-icon" class="header__burger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <main>
+      <div class="main-image">
+        <h1 id="image_title" class="cta-title">
+          Tu tranquilidad, nuestro objetivo
+        </h1>
+        <a href="#" class="cta-button">Solicita informacion</a>
+      </div>
+      <section class="aboutUs section-styles">
+        <h2 class="aboutUs__title title-style">¿Quienes somos?</h2>
+        <div class="groundborder"></div>
+        <article class="aboutUs__article">
+          <p class="aboutUs__paragraph paragraph-styles">
+            Somos una empresa con años de experiencia en el sector ubicada en
+            Barcelona. Nos dedicamos a todo tipo de servicios generales
+            enfocados a Comunidades de Vecinos, Mancomunidades de Propietarios,
+            Garajes y Aparcamientos tanto públicos como privados, Edificios
+            Singulares, etc.
+          </p>
+        </article>
+      </section>
+      <section class="servicesDescription section-styles">
+        <h2 class="servicesDescription__title title-style">Como lo hacemos?</h2>
+        <div class="groundborder"></div>
+        <div class="servicesDescriptin__card">
+          <p class="servicesDescriptin__paragraph paragraph-styles">
+            OSR CALM elabora un plan operativo individualizado, para prestar un
+            servicio profesional adaptado a las necesidades de cada cliente.
+            Combinamos los medios técnicos y humanos adecuados, definiendo unas
+            normas básicas para la realización de cada servicio.
+          </p>
+        </div>
+      </section>
+
+      <section id="allServices" class="allServices section-styles">
+        <h2 class="allServices__title title-style">Nuestros servicios</h2>
+        <div class="groundborder"></div>
+        <p class="allServices__paragraph paragraph-styles"></p>
+        <div class="allServices__servicesContainer section-styles">
+          <div class="allServices__items .item-style">
+            Conserjeria
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
 </html>
